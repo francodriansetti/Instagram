@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "Name": "Stephen Riolo",
+      "Liked": 0,
+      "Image": "http://web.snapfood.com/storage/dish/dish_MAve1_hnlUI.jpg",
+      "Price": 10.50,
+      "Description": "Best pizza on the island!"
+    },
+    {
+      "Name": "Alessio Ripanti",
+      "Liked": 0,
+      "Image": "http://web.snapfood.com/storage/dish/dish_Unbn7_pqWvK.png",
+      "Price": 15.50,
+      "Description": "Best pizza in Sliema!"
+    },
+    {
+      "Name": "Mark Spiteri",
+      "Liked": 1,
+      "Image": "http://web.snapfood.com/storage/dish/dish_6OPxc_q3cYc.jpg",
+      "Price": 15.50,
+      "Description": "Best pizza in Sliema!"
+    },
+    {
+      "Name": "Joseph Spiteri",
+      "Liked": 0,
+      "Image": "http://web.snapfood.com/storage/dish/dish_Unbn7_pqWvK.png",
+      "Price": 10.50,
+      "Description": "Good pizza"
+    }
+  ]
+}
