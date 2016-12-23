@@ -62,7 +62,7 @@
 		9D61BFE51E0C0DBA0071E2F6 /* GlooxyPlus */ = {
 			isa = PBXGroup;
 			children = (
-				9D61BFF81E0C0DCD0071E2F6 /* ViewController */,
+				9D61BFF81E0C0DCD0071E2F6 /* Controller */,
 				9D61C0011E0C0FE90071E2F6 /* Model */,
 				9D61BFFC1E0C0FB90071E2F6 /* Assets */,
 				9D61BFE61E0C0DBA0071E2F6 /* AppDelegate.swift */,
@@ -70,17 +70,17 @@
 				9D61BFED1E0C0DBA0071E2F6 /* Assets.xcassets */,
 				9D61BFEF1E0C0DBA0071E2F6 /* LaunchScreen.storyboard */,
 				9D61BFF21E0C0DBA0071E2F6 /* Info.plist */,
-				9D61C0071E0C1D6A0071E2F6 /* ItemTableViewCell.swift */,
 			);
 			path = GlooxyPlus;
 			sourceTree = "<group>";
 		};
-		9D61BFF81E0C0DCD0071E2F6 /* ViewController */ = {
+		9D61BFF81E0C0DCD0071E2F6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9D61C0071E0C1D6A0071E2F6 /* ItemTableViewCell.swift */,
 				9D61BFF91E0C0DE40071E2F6 /* GLTableViewController.swift */,
 			);
-			name = ViewController;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		9D61BFFC1E0C0FB90071E2F6 /* Assets */ = {

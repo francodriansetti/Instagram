@@ -17,20 +17,9 @@ class GLMainTableViewController: UITableViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        //        tableView.register(UINib(nibName: "CustomCell", bundle: nil), forCellReuseIdentifier: "cellItem")
         dict = readJson()
         parseData()
         
-        print("..----")
-        print("Grandezza \(listItems.count)")
-        
-        
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
     func readJson() -> NSDictionary?
@@ -81,8 +70,8 @@ class GLMainTableViewController: UITableViewController {
         return listItems.count
     }
     
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellItem", for: indexPath) as! ItemTableViewCell
         
         
@@ -105,7 +94,7 @@ class GLMainTableViewController: UITableViewController {
                 cell.nameLabel.text = "not found name."
             }
             
-            cell.descriptionText.isScrollEnabled = false
+            //cell.descriptionText.isScrollEnabled = false
             cell.descriptionText.isUserInteractionEnabled = false
             if let descriptionExist = listItems[indexPath.row].GLdescription {
                 cell.descriptionText.text = "\(descriptionExist)"
